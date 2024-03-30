@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".SplashScreen"
+android:background="@drawable/background2"
+    >
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/mainImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="369dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/doctorsbag"
+        app:riv_corner_radius="10dp" />
+
+<!--        android:id="@+id/profile_image"-->
+<!--        android:layout_width="86dp"-->
+<!--        android:layout_height="86dp"-->
+<!--        android:layout_marginLeft="5dp"-->
+<!--        android:padding="5dp"-->
+<!--        android:src="@drawable/avatar"-->
+<!--        app:civ_border_color="#FF000000"-->
+<!--        app:civ_border_width="2dp"-->
+
+    <TextView
+        android:id="@+id/menuText"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="388dp"
+        android:layout_marginBottom="282dp"
+        android:backgroundTint="#B4C1D5"
+        android:text="Welcome to the 24*7 Medicare Health app"
+        android:textAlignment="center"
+        android:textColor="#C83737"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/menuLoginBtn"
+        android:layout_width="170dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"
+        android:layout_marginBottom="197dp"
+        android:backgroundTint="#B4C1D5"
+        android:text="patient"
+        android:textColor="#C21717"
+        android:textSize="22sp"
+        app:cornerRadius="30dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/menuGuestBtn"
+        android:layout_width="170dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="556dp"
+        android:layout_marginBottom="121dp"
+        android:backgroundTint="#B4C1D5"
+        android:text="doctor"
+        android:textColor="#C21717"
+        android:textSize="22sp"
+        app:cornerRadius="30dp" />
+
+
+</RelativeLayout>

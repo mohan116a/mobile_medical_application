@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.adilramzan.Medical_mobile_application">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MediCare"
+        tools:targetApi="31">
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.ActivityUpdateDrawer"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.GuestActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.AboutUs"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.HealthArticlesDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.HealthArticlesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.BuyMedicineBookActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.CartBuyMedicineActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.BuyMedicineDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.BuyMedicineActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.OrderDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.LabTestBookActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.CartLabActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.LabTestDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.LabTestActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.BookAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.DoctorDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.FindDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.adilramzan.Medical_mobile_application.MainActivity"
+            android:exported="true"
+            android:theme="@style/MainActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>

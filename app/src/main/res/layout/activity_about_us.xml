@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:padding="10dp"
+android:orientation="vertical"
+    android:background="@drawable/medicare6"
+android:layout_height="match_parent"
+tools:context=".AboutUs">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/aboutUsImg"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/medicare"
+        app:riv_corner_radius="10dp" />
+
+    <TextView
+    android:id="@+id/tvAboutUs"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+        android:textSize="16sp"
+    android:text="I am Adil Ramzan. This app is made by me, a student of BS CS at FAST NUCES ISLAMABAD Pakistan. I am a self-taught Android developer.I have used Firebase In-App Messaging as the in-app messaging service. I have used Firebase Dynamic Links as the dynamic links service.I have used Firebase App Indexing as the app indexing service. I have used Firebase Cloud Firestore as the database service. I have used Firebase Cloud Functions as the serverless functions service. I have used Firebase Cloud Storage as the storage service. I have used Firebase Cloud Messaging as the messaging service.I have used Firebase Cloud Firestore"
+    tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnAUBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_bg"
+        android:text="Back"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        />
+
+
+</LinearLayout>
